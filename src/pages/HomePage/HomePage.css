@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.home_title {
+    font-size: 6em;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.dir_page_link {
+    color: blue;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 5em;
+}
