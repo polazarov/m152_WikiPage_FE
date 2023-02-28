@@ -4,14 +4,14 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import Home from "./Home";
+import HomePage from "./pages/HomePage";
 
 const Router = () => {
   return (
     <Routes>
       <Route
         path={"/"}
-        element={<Home />}
+        element={<HomePage />}
       />
     </Routes>
   );
