@@ -5,6 +5,7 @@ import {
   Routes,
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import WikiPage from "./pages/WikiPage";
 
 const Router = () => {
   return (
@@ -13,6 +14,9 @@ const Router = () => {
         path={"/"}
         element={<HomePage />}
       />
+      <Route 
+      path={"/wiki"}
+      element={<WikiPage/>}/>
     </Routes>
   );
 };
