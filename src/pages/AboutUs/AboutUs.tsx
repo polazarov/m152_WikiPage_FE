@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutUs.css'
 import Card from '@mui/material/Card';
-import { Button, CardActions, CardContent, CardMedia, Typography } from '@mui/material';
+import { Button, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 
 export default function AboutUs() {
 
@@ -33,7 +33,9 @@ export default function AboutUs() {
     <>
     <div className='aboutUs_title'>Our Team</div>
     {ourTeam.map((worker) => {
-         return <div> <Card sx={{ maxWidth: 345 }}>
+         return <div> 
+            <Grid md={5}>
+            <Card sx={{ maxWidth: 345 }}>
         <CardMedia
           sx={{ height: 140 }}
           image="/static/images/cards/contemplative-reptile.jpg"
@@ -50,7 +52,7 @@ export default function AboutUs() {
             {worker.carrer}
           </Typography>
         </CardContent>
-      </Card></div>
+      </Card></Grid></div>
     })}
     </>
   )
