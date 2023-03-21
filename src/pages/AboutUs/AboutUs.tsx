@@ -2,6 +2,7 @@ import React from 'react'
 import './AboutUs.css'
 import Card from '@mui/material/Card';
 import { Button, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import HamburgerMenu from '../../atoms/HamburgerMenu';
 
 export default function AboutUs() {
 
@@ -31,6 +32,7 @@ export default function AboutUs() {
 
   return (
     <>
+    <HamburgerMenu></HamburgerMenu>
     <div className='aboutUs_title'>Our Team</div>
     {ourTeam.map((worker) => {
          return <div> 
