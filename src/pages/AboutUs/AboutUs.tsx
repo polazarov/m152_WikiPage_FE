@@ -40,10 +40,10 @@ export default function AboutUs() {
     <>
       <HamburgerMenu></HamburgerMenu>
       <div className="aboutUs_title">Our Team</div>
-      <Grid container spacing={0} alignItems="center" justifyItems="center">
+      <Grid container spacing={0} alignItems="center" justifyItems="center" className="outerdiv">
           {ourTeam.map((worker) => {
-            return (<Grid md={5}> 
-              <Card sx={{ maxWidth: 345, marginTop: 20 }}>
+            return (<Grid md={6}> 
+              <Card sx={{ maxWidth: 345, marginTop: 20 }} className="innerdiv">
                 <CardMedia
                   sx={{ height: 140 }}
                   image="/static/images/cards/contemplative-reptile.jpg"

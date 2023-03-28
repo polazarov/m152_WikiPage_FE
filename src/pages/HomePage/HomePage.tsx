@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
     <HamburgerMenu />
     <div className='home_title'>Welcome to TBZWiki!</div>
-    <div className='dir_page_link'>Get your knowledge here</div>
+    <a href="/wiki"><div className='dir_page_link'>Get your knowledge here</div></a>
     </>
   )
 }
