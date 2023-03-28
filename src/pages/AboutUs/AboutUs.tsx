@@ -18,21 +18,25 @@ export default function AboutUs() {
       name: "Shawn Lacarta",
       age: 18,
       carrer: "Junior Software Developer",
+      picture: "src/pics/shawn.JPG"
     },
     {
       name: "Anojan Pirabakaran",
       age: 18,
       carrer: "Junior Software Developer",
+      picture: "src/pics/shawn.JPG"
     },
     {
       name: "Enes Spahiu",
       age: 18,
       carrer: "Junior Software Developer",
+      picture: "src/pics/shawn.JPG"
     },
     {
       name: "Matijas Polazarov",
       age: 18,
       carrer: "Junior Software Developer",
+      picture: "src/pics/shawn.JPG"
     },
   ];
 
@@ -43,11 +47,11 @@ export default function AboutUs() {
       <Grid container spacing={0} alignItems="center" justifyItems="center" className="outerdiv">
           {ourTeam.map((worker) => {
             return (<Grid md={6}> 
-              <Card sx={{ maxWidth: 345, marginTop: 20 }} className="innerdiv">
+              <Card sx={{ maxWidth: 500, marginTop: 20 }} className="innerdiv">
                 <CardMedia
-                  sx={{ height: 140 }}
-                  image="/static/images/cards/contemplative-reptile.jpg"
-                  title="green iguana"
+                  sx={{ height: 120 }}
+                  image={worker.picture}
+                  
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
