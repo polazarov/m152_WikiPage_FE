@@ -11,6 +11,7 @@ import {
   Typography,
 } from "@mui/material";
 import HamburgerMenu from "../../atoms/HamburgerMenu";
+import Footer from "../../organisms/Footer";
 
 export default function AboutUs() {
   let ourTeam = [
@@ -70,6 +71,7 @@ export default function AboutUs() {
           })}
         
       </Grid>
+      <Footer/>
     </>
   );
 }
