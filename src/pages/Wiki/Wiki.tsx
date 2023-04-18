@@ -14,35 +14,42 @@ import HamburgerMenu from "../../atoms/HamburgerMenu";
 import Footer from "../../organisms/Footer";
 
 export default function Wiki() {
-  let ourTeam = [
+
+  type TeamType = {
+    title: string,
+    image: string,
+    text: string,
+  }
+
+  let ourTeam: TeamType[] = [
     {
       title: "How do i take notes efficiantly",
-      image: "",
+      image: "../pics/excalidraw.jpg",
       text: "Junior Software Developer",
     },
     {
       title: "How to make a life easier as a mac user",
-      image: 18,
+      image: "../pics/homebrew.jpg",
       text: "Junior Software Developer",
     },
     {
       title: "Which tool to use for working with diagramms",
-      image: 18,
+      image: "../pics/draw-io.jpg",
       text: "Junior Software Developer",
     },
     {
       title: "How do i work with others efficiantly",
-      image: 18,
+      image: "../pics/github.jpg",
       text: "Junior Software Developer",
     },
     {
       title: "What media and file formats to use for the web",
-      image: 18,
+      image: "../pics/videoformats.jpg",
       text: "Junior Software Developer",
     },
     {
       title: "Which software to use for media production",
-      image: 18,
+      image: "../pics/mediaproduction.jpg",
       text: "Junior Software Developer",
     },
   ];
@@ -54,11 +61,12 @@ export default function Wiki() {
       <Grid container spacing={0} alignItems="center" justifyItems="center" className="outerdiv">
           {ourTeam.map((worker) => {
             return (<Grid md={4}> 
-              <Card sx={{ maxWidth: 345, marginTop: 20 }} className="innerdiv">
-                <CardMedia
-                  sx={{ height: 140 }}
-                  image="src/pics/shawn.JPG"
-                />
+              <Card sx={{ maxWidth: 345, marginTop: 20, height: 400 }} className="innerdiv">
+              <CardMedia
+                component="img"
+                height="200"
+                image={worker.image}
+              />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div" className="card_title">
                     {worker.title}
