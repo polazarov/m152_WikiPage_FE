@@ -1,16 +1,25 @@
 import { element } from "prop-types";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import WikiPage from "./pages/WikiPage";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import HomePage from "./pages/HomePage/HomePage";
+import Wiki from "./pages/Wiki/Wiki";
 
 const Router = () => {
   return (
     <Routes>
-      <Route path={"/"} element={<HomePage />} />
-      <Route path={"/wiki"} element={<WikiPage />} />
-      <Route path={"/ourTeam"} element={<AboutUs />} />
+      <Route
+        path={"/"}
+        element={<HomePage />}
+      />
+      <Route
+        path={"/ourTeam"}
+        element={<AboutUs />}
+      />
+        <Route
+        path={"/wiki"}
+        element={<Wiki />}
+      />
     </Routes>
   );
 };

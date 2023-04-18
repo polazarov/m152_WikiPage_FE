@@ -3,3 +3,15 @@
     text-align: center;
     margin-top: 3em;
 }
+.innerdiv{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+    width: 500px; 
+}
+.outerdiv{
+    width: 100%;
+    text-align: center;
+    
+    
+}

@@ -1,0 +1,21 @@
+.wiki_title{
+    font-size: 6em;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.card_title{
+    text-align: center;
+}
+.innerdiv{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+    width: 300px; 
+}
+.outerdiv{
+    width: 100%;
+    text-align: center;
+    
+    
+}
