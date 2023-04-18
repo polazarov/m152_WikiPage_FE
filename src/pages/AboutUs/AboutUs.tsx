@@ -19,25 +19,25 @@ export default function AboutUs() {
       name: "Shawn Lacarta",
       age: 18,
       carrer: "Junior Software Developer",
-      picture: "src/pics/shawn.JPG"
+      picture: "../pics/lacarta.jpg"
     },
     {
       name: "Anojan Pirabakaran",
       age: 18,
       carrer: "Junior Software Developer",
-      picture: "src/pics/shawn.JPG"
+      picture: "../pics/pirabakaran.jpg"
     },
     {
       name: "Enes Spahiu",
       age: 18,
       carrer: "Junior Software Developer",
-      picture: "src/pics/shawn.JPG"
+      picture: "../pics/spahiu.jpg"
     },
     {
       name: "Matijas Polazarov",
       age: 18,
       carrer: "Junior Software Developer",
-      picture: "src/pics/shawn.JPG"
+      picture: "../pics/polazarov.jpg"
     },
   ];
 
@@ -50,7 +50,7 @@ export default function AboutUs() {
             return (<Grid md={6}> 
               <Card sx={{ maxWidth: 500, marginTop: 20 }} className="innerdiv">
                 <CardMedia
-                  sx={{ height: 120 }}
+                  sx={{ height: 400 }}
                   image={worker.picture}
                   
                 />
