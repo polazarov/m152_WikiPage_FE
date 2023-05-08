@@ -8,6 +8,10 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import HomePage from "./pages/HomePage/HomePage";
 import Wiki from "./pages/Wiki/Wiki";
 import ExCaliDraw from "./pages/ExCaliDraw/ExCaliDraw";
+import ProductionPage from "./pages/ProductionPage/ProductionPage";
+import GitHub from "./pages/GitHub/GitHub";
+import DrawIo from "./pages/Draw-io/DrawIo";
+import Homebrew from "./pages/Homebrew/Homebrew";
 
 const Router = () => {
   return (
@@ -27,6 +31,22 @@ const Router = () => {
       <Route
         path={"/excalidraw"}
         element={<ExCaliDraw />}
+      />
+      <Route
+        path={"/homebrew"}
+        element={<Homebrew />}
+      />
+      <Route
+        path={"/drawio"}
+        element={<DrawIo />}
+      />
+      <Route
+        path={"/github"}
+        element={<GitHub />}
+      />
+      <Route
+        path={"/productionpage"}
+        element={<ProductionPage />}
       />
     </Routes>
   );

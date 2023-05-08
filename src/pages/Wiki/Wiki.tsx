@@ -33,19 +33,19 @@ export default function Wiki() {
       title: "How to make a life easier as a mac user",
       image: "../pics/homebrew.jpg",
       text: "Junior Software Developer",
-      url: "/excalidraw"
+      url: "/homebrew"
     },
     {
       title: "Which tool to use for working with diagramms",
       image: "../pics/draw-io.jpg",
       text: "Junior Software Developer",
-      url: "/excalidraw"
+      url: "/drawio"
     },
     {
       title: "How do i work with others efficiantly",
       image: "../pics/github.jpg",
       text: "Junior Software Developer",
-      url: "/excalidraw"
+      url: "/github"
     },
     {
       title: "What media and file formats to use for the web",
@@ -57,7 +57,7 @@ export default function Wiki() {
       title: "Which software to use for media production",
       image: "../pics/mediaproduction.jpg",
       text: "Junior Software Developer",
-      url: "/excalidraw"
+      url: "/productionpage"
     },
   ];
 

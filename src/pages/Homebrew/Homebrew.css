@@ -1,0 +1,31 @@
+.wiki_title{
+    font-size: 6em;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.card_title{
+    text-align: center;
+}
+
+.inner_text{
+    text-align: center;
+    margin-left: 8;
+    margin-right: 8em;
+    margin-top: 6vh;
+    position: relative;
+}
+
+.inner_div{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 6em;
+}
+
+.button{
+    margin: 6;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
