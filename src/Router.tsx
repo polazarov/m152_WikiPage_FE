@@ -7,6 +7,7 @@ import {
 import AboutUs from "./pages/AboutUs/AboutUs";
 import HomePage from "./pages/HomePage/HomePage";
 import Wiki from "./pages/Wiki/Wiki";
+import ExCaliDraw from "./pages/ExCaliDraw/ExCaliDraw";
 
 const Router = () => {
   return (
@@ -22,6 +23,10 @@ const Router = () => {
         <Route
         path={"/wiki"}
         element={<Wiki />}
+      />
+      <Route
+        path={"/excalidraw"}
+        element={<ExCaliDraw />}
       />
     </Routes>
   );
