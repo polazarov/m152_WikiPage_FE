@@ -3,12 +3,15 @@ import { Grid } from "@mui/material";
 import React from "react";
 
 import HamburgerMenu from "../../atoms/HamburgerMenu";
+import "./ProductionPage.css";
 
 export default function ProductionPage() {
   return (
     <>
       <HamburgerMenu></HamburgerMenu>
+      <div className="wiki_title">Learn more about the production</div>
       <Grid container style={{ marginTop: "15%" }}>
+      
         <Grid item xs={1}></Grid>
         <Grid item xs={8}>
           Adobe Premiere Pro ist eine professionelle Videobearbeitungssoftware,
