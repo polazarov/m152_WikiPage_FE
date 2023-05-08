@@ -10,29 +10,39 @@ export default function Homebrew() {
       <HamburgerMenu></HamburgerMenu>
       <div className="wiki_title">Learn more about ExCaliDraw</div>
       <div className="inner_div">
-      <Typography className="inner_text">
-        ExcaliDraw ist ein kostenloses Online-Vektorgrafikprogramm. Mit dieser
-        praktischen Anwendung können Benutzer schnell und einfach Diagramme,
-        Flussdiagramme, Mindmaps und andere visuelle Elemente erstellen.
-        ExcaliDraw ist besonders nützlich für Remote-Teams, da die generierten
-        Grafiken einfach in andere Anwendungen wie Google Docs, Microsoft Office
-        und Slack exportiert werden können. Die Benutzeroberfläche von
-        ExcaliDraw ist intuitiv und einfach zu bedienen, selbst für diejenigen,
-        die mit Vektorgrafiken oder Grafikdesign-Software nicht vertraut sind.
-        Das Tool bietet auch eine Vielzahl von Formen, Symbolen und Linientypen,
-        die an jedes Projekt angepasst werden können. Ein weiterer großer
-        Vorteil von ExcaliDraw ist die Möglichkeit, Grafiken in Echtzeit zu
-        bearbeiten und mit anderen Benutzern zu teilen. Auf diese Weise können
-        Teams zusammenarbeiten und Ideen austauschen, als ob sie sich im selben
-        Raum befänden. Alles in allem ist ExcaliDraw eine großartige Wahl für
-        Teams, die schnell und einfach attraktive Grafiken erstellen und
-        zusammenarbeiten müssen. Mit benutzerfreundlichen Funktionen und
-        nahtloser Integration mit anderen Anwendungen ist es eine wertvolle
-        Ergänzung für jedes Toolkit.
-      </Typography>
-      
+        <Typography className="inner_text">
+          Homebrew ist ein beliebtes Open-Source-Paketverwaltungssystem für
+          macOS. Es ermöglicht Benutzern die einfache Installation von Software
+          und Bibliotheken über die Kommandozeile. Mit Homebrew können Benutzer
+          auf eine umfangreiche Sammlung von vorkompilierten Paketen zugreifen
+          und diese schnell und unkompliziert auf ihren Mac-Systemen
+          installieren. Homebrew erleichtert die Installation von
+          Entwicklertools, Programmiersprachen, Bibliotheken und Anwendungen,
+          die nicht standardmäßig in macOS enthalten sind. Es ermöglicht
+          Benutzern, Pakete über ein einfaches Kommandozeileninterface zu
+          suchen, zu installieren, zu aktualisieren und zu verwalten. Das System
+          kümmert sich um Abhängigkeiten und stellt sicher, dass die benötigten
+          Komponenten korrekt installiert werden. Eine der Stärken von Homebrew
+          liegt in seiner aktiven Community, die ständig neue Pakete
+          aktualisiert und hinzufügt. Benutzer können auch eigene Formeln
+          erstellen, um benutzerdefinierte Software zu verwalten oder
+          beispielsweise Entwicklerversionen von Programmen zu installieren.
+          Homebrew bietet auch die Möglichkeit, alternative Versionen von
+          Software zu installieren und zwischen ihnen zu wechseln, was für
+          Entwickler und Tester besonders nützlich ist. Darüber hinaus bietet es
+          Funktionen wie das Löschen von Paketen, das Anzeigen von Informationen
+          über Pakete und das Anpassen der Konfiguration nach Bedarf. Mit
+          Homebrew können Benutzer ihre Softwareaktualisierungen einfach
+          verwalten und von den neuesten Versionen ihrer bevorzugten Anwendungen
+          profitieren, ohne auf macOS-Systemupdates warten zu müssen. Insgesamt
+          ist Homebrew ein leistungsfähiges und flexibles Paketverwaltungssystem
+          für macOS, das Benutzern ermöglicht, ihre Softwareumgebung effizient
+          zu verwalten und schnell auf neue Tools und Bibliotheken zuzugreifen.
+        </Typography>
 
-      <Button className="button" variant="contained">How the video was made</Button>
+        <Button className="button" variant="contained">
+          How the video was made
+        </Button>
       </div>
       <Footer />
     </>

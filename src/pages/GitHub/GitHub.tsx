@@ -10,29 +10,38 @@ export default function GitHub() {
       <HamburgerMenu></HamburgerMenu>
       <div className="wiki_title">Learn more about ExCaliDraw</div>
       <div className="inner_div">
-      <Typography className="inner_text">
-        ExcaliDraw ist ein kostenloses Online-Vektorgrafikprogramm. Mit dieser
-        praktischen Anwendung können Benutzer schnell und einfach Diagramme,
-        Flussdiagramme, Mindmaps und andere visuelle Elemente erstellen.
-        ExcaliDraw ist besonders nützlich für Remote-Teams, da die generierten
-        Grafiken einfach in andere Anwendungen wie Google Docs, Microsoft Office
-        und Slack exportiert werden können. Die Benutzeroberfläche von
-        ExcaliDraw ist intuitiv und einfach zu bedienen, selbst für diejenigen,
-        die mit Vektorgrafiken oder Grafikdesign-Software nicht vertraut sind.
-        Das Tool bietet auch eine Vielzahl von Formen, Symbolen und Linientypen,
-        die an jedes Projekt angepasst werden können. Ein weiterer großer
-        Vorteil von ExcaliDraw ist die Möglichkeit, Grafiken in Echtzeit zu
-        bearbeiten und mit anderen Benutzern zu teilen. Auf diese Weise können
-        Teams zusammenarbeiten und Ideen austauschen, als ob sie sich im selben
-        Raum befänden. Alles in allem ist ExcaliDraw eine großartige Wahl für
-        Teams, die schnell und einfach attraktive Grafiken erstellen und
-        zusammenarbeiten müssen. Mit benutzerfreundlichen Funktionen und
-        nahtloser Integration mit anderen Anwendungen ist es eine wertvolle
-        Ergänzung für jedes Toolkit.
-      </Typography>
-      
+        <Typography className="inner_text">
+          GitHub ist eine webbasierte Plattform für Versionskontrolle und
+          kollaborative Softwareentwicklung. Sie ermöglicht Entwicklern,
+          gemeinsam an Projekten zu arbeiten, den Quellcode zu verwalten,
+          Änderungen nachzuverfolgen und Feedback zu geben. GitHub basiert auf
+          dem verteilten Versionskontrollsystem Git und bietet eine
+          benutzerfreundliche Oberfläche, die es Entwicklern ermöglicht, ihre
+          Projekte zu hosten, zu veröffentlichen und zu verwalten. Jedes Projekt
+          wird in einem sogenannten "Repository" (Repo) gespeichert, in dem alle
+          Dateien, Ordner, Änderungen und Historien des Codes verwaltet werden.
+          Die Plattform bietet Funktionen wie Branching und Merging, um
+          parallele Entwicklungsstränge zu ermöglichen und Änderungen effizient
+          zusammenzuführen. Entwickler können Pull Requests erstellen, um
+          Änderungen vorzuschlagen und Feedback von Teammitgliedern zu erhalten,
+          bevor sie in den Hauptcode integriert werden. GitHub ermöglicht auch
+          die Zusammenarbeit in Teams. Entwickler können Probleme (Issues)
+          melden, Diskussionen führen und Aufgaben verfolgen. Darüber hinaus
+          bietet es Funktionen wie Wikis, Projektmanagement-Tools und Continuous
+          Integration, um die Effizienz und Qualität der Softwareentwicklung zu
+          verbessern. Die Plattform ist nicht nur auf Open-Source-Projekte
+          beschränkt, sondern wird auch von Unternehmen für ihre privaten
+          Projekte verwendet. GitHub bietet sowohl kostenlose als auch
+          kostenpflichtige Abonnementpläne mit erweiterten Funktionen und
+          Optionen zur Verwaltung von privaten Repositories. Insgesamt ist
+          GitHub zu einem wichtigen Werkzeug für Entwickler und Teams geworden,
+          um gemeinsam an Projekten zu arbeiten, Code zu verwalten und die
+          Zusammenarbeit in der Softwareentwicklung zu erleichtern.
+        </Typography>
 
-      <Button className="button" variant="contained">How the video was made</Button>
+        <Button className="button" variant="contained">
+          How the video was made
+        </Button>
       </div>
       <Footer />
     </>
