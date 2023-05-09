@@ -1,17 +1,19 @@
-.aboutUs_title{
-    font-size: 6em;
-    text-align: center;
-    margin-top: 3em;
+.aboutUs_title {
+  font-size: 6em;
+  text-align: center;
+  margin-top: 3em;
 }
-.innerdiv{
-    display: inline-block;
-    margin: 0 auto;
-    padding: 3px;
-    width: 500px; 
+.innerdiv {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
+  width: 500px;
 }
-.outerdiv{
-    width: 100%;
-    text-align: center;
-    
-    
+.outerdiv {
+  width: 100%;
+  text-align: center;
+}
+.texttext {
+  text-align: center;
+  font-size: 2em;
 }

@@ -19,41 +19,50 @@ export default function AboutUs() {
       name: "Shawn Lacarta",
       age: 18,
       carrer: "Junior Software Developer",
-      picture: "../pics/lacarta.jpg"
+      picture: "../pics/lacarta.jpg",
     },
     {
       name: "Anojan Pirabakaran",
       age: 18,
       carrer: "Junior Software Developer",
-      picture: "../pics/pirabakaran.jpg"
+      picture: "../pics/pirabakaran.jpg",
     },
     {
       name: "Enes Spahiu",
       age: 18,
       carrer: "Junior Software Developer",
-      picture: "../pics/spahiu.jpg"
+      picture: "../pics/spahiu.jpg",
     },
     {
       name: "Matijas Polazarov",
       age: 18,
       carrer: "Junior Software Developer",
-      picture: "../pics/polazarov.jpg"
+      picture: "../pics/polazarov.jpg",
     },
   ];
 
   return (
     <>
       <HamburgerMenu></HamburgerMenu>
-      <div className="aboutUs_title">Our Team</div>
-      <Grid container spacing={0} alignItems="center" justifyItems="center" className="outerdiv">
-          {ourTeam.map((worker) => {
-            return (<Grid md={6}> 
+      <div>
+        <div className="aboutUs_title">Our Team</div>
+
+        <div className="texttext">
+          "Empowering the future through technology."
+        </div>
+      </div>
+      <Grid
+        container
+        spacing={0}
+        alignItems="center"
+        justifyItems="center"
+        className="outerdiv"
+      >
+        {ourTeam.map((worker) => {
+          return (
+            <Grid md={6}>
               <Card sx={{ maxWidth: 500, marginTop: 20 }} className="innerdiv">
-                <CardMedia
-                  sx={{ height: 400 }}
-                  image={worker.picture}
-                  
-                />
+                <CardMedia sx={{ height: 400 }} image={worker.picture} />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
                     {worker.name}
@@ -66,12 +75,11 @@ export default function AboutUs() {
                   </Typography>
                 </CardContent>
               </Card>
-              </Grid>
-            );
-          })}
-        
+            </Grid>
+          );
+        })}
       </Grid>
-      <Footer/>
+      <Footer />
     </>
   );
 }
