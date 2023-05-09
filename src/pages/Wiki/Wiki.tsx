@@ -19,6 +19,7 @@ export default function Wiki() {
     title: string,
     image: string,
     text: string,
+    url: string
   }
 
   let ourTeam: TeamType[] = [
@@ -26,31 +27,37 @@ export default function Wiki() {
       title: "How do i take notes efficiantly",
       image: "../pics/excalidraw.jpg",
       text: "Junior Software Developer",
+      url: "/excalidraw"
     },
     {
       title: "How to make a life easier as a mac user",
       image: "../pics/homebrew.jpg",
       text: "Junior Software Developer",
+      url: "/homebrew"
     },
     {
       title: "Which tool to use for working with diagramms",
       image: "../pics/draw-io.jpg",
       text: "Junior Software Developer",
+      url: "/drawio"
     },
     {
       title: "How do i work with others efficiantly",
       image: "../pics/github.jpg",
       text: "Junior Software Developer",
+      url: "/github"
     },
     {
       title: "What media and file formats to use for the web",
       image: "../pics/videoformats.jpg",
       text: "Junior Software Developer",
+      url: "/mediaformats"
     },
     {
       title: "Which software to use for media production",
       image: "../pics/mediaproduction.jpg",
       text: "Junior Software Developer",
+      url: "/productionpage"
     },
   ];
 
@@ -72,7 +79,9 @@ export default function Wiki() {
                     {worker.title}
                   </Typography>
                 </CardContent>
+                <a href={worker.url}>
                 <Button variant="contained" sx={{marginBottom: 3}}>Learn more</Button>
+                </a>
               </Card>
               </Grid>
             );
