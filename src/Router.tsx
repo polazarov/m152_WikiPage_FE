@@ -12,6 +12,7 @@ import ProductionPage from "./pages/ProductionPage/ProductionPage";
 import GitHub from "./pages/GitHub/GitHub";
 import DrawIo from "./pages/Draw-io/DrawIo";
 import Homebrew from "./pages/Homebrew/Homebrew";
+import MediaFormats from "./pages/MediaFormats/MediaFormats";
 
 const Router = () => {
   return (
@@ -47,6 +48,10 @@ const Router = () => {
       <Route
         path={"/productionpage"}
         element={<ProductionPage />}
+      />
+      <Route
+        path={"/mediaformats"}
+        element={<MediaFormats />}
       />
     </Routes>
   );

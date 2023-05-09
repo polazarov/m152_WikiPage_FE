@@ -51,7 +51,7 @@ export default function Wiki() {
       title: "What media and file formats to use for the web",
       image: "../pics/videoformats.jpg",
       text: "Junior Software Developer",
-      url: "/excalidraw"
+      url: "/mediaformats"
     },
     {
       title: "Which software to use for media production",
