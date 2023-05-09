@@ -8,40 +8,16 @@ export default function GitHub() {
   return (
     <>
       <HamburgerMenu></HamburgerMenu>
-      <div className="wiki_title">Learn more about ExCaliDraw</div>
+      <div className="wiki_title">Learn more about Git</div>
       <div className="inner_div">
         <Typography className="inner_text">
-          GitHub ist eine webbasierte Plattform für Versionskontrolle und
-          kollaborative Softwareentwicklung. Sie ermöglicht Entwicklern,
-          gemeinsam an Projekten zu arbeiten, den Quellcode zu verwalten,
-          Änderungen nachzuverfolgen und Feedback zu geben. GitHub basiert auf
-          dem verteilten Versionskontrollsystem Git und bietet eine
-          benutzerfreundliche Oberfläche, die es Entwicklern ermöglicht, ihre
-          Projekte zu hosten, zu veröffentlichen und zu verwalten. Jedes Projekt
-          wird in einem sogenannten "Repository" (Repo) gespeichert, in dem alle
-          Dateien, Ordner, Änderungen und Historien des Codes verwaltet werden.
-          Die Plattform bietet Funktionen wie Branching und Merging, um
-          parallele Entwicklungsstränge zu ermöglichen und Änderungen effizient
-          zusammenzuführen. Entwickler können Pull Requests erstellen, um
-          Änderungen vorzuschlagen und Feedback von Teammitgliedern zu erhalten,
-          bevor sie in den Hauptcode integriert werden. GitHub ermöglicht auch
-          die Zusammenarbeit in Teams. Entwickler können Probleme (Issues)
-          melden, Diskussionen führen und Aufgaben verfolgen. Darüber hinaus
-          bietet es Funktionen wie Wikis, Projektmanagement-Tools und Continuous
-          Integration, um die Effizienz und Qualität der Softwareentwicklung zu
-          verbessern. Die Plattform ist nicht nur auf Open-Source-Projekte
-          beschränkt, sondern wird auch von Unternehmen für ihre privaten
-          Projekte verwendet. GitHub bietet sowohl kostenlose als auch
-          kostenpflichtige Abonnementpläne mit erweiterten Funktionen und
-          Optionen zur Verwaltung von privaten Repositories. Insgesamt ist
-          GitHub zu einem wichtigen Werkzeug für Entwickler und Teams geworden,
-          um gemeinsam an Projekten zu arbeiten, Code zu verwalten und die
-          Zusammenarbeit in der Softwareentwicklung zu erleichtern.
+        GitHub is a web-based platform for version control and collaborative software development. It enables developers to work together on projects, manage source code, track changes and provide feedback. GitHub is based on the distributed version control system Git and provides an easy-to-use interface that allows developers to host, publish, and manage their projects. Each project is stored in a so-called "repository" (repo) where all files, folders, changes and history of the code are managed. The platform offers features such as branching and merging to enable parallel development strands and efficiently merge changes. Developers can create pull requests to suggest changes and get feedback from team members before they are incorporated into the main code. GitHub also enables collaboration in teams. Developers can report issues, conduct discussions, and track tasks. In addition, it offers features such as wikis, project management tools, and continuous integration to improve the efficiency and quality of software development. The platform is not only limited to open source projects, but is also used by companies for their private projects. GitHub offers both free and paid subscription plans with enhanced features and options for managing private repositories. Overall, GitHub has become an important tool for developers and teams to work together on projects, manage code, and collaborate on software development.
         </Typography>
 
         <Button className="button" variant="contained">
           How the video was made
         </Button>
+        <iframe width="1118" height="629" src="https://www.youtube.com/embed/CT5LbGWp1e4" title="Lernvideo Anojan Pirabakaran" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>
       <Footer />
     </>

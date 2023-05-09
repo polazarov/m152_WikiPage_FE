@@ -8,38 +8,17 @@ export default function DrawIo() {
   return (
     <>
       <HamburgerMenu></HamburgerMenu>
-      <div className="wiki_title">Learn more about ExCaliDraw</div>
+      <div className="wiki_title">Learn more about Draw.io</div>
       <div className="inner_div">
         <Typography className="inner_text">
-          Draw.io ist ein webbasiertes Diagramm- und Flussdiagrammwerkzeug, das
-          es Benutzern ermöglicht, schnell und einfach Diagramme, Organigramme,
-          Flussdiagramme, Netzwerkdiagramme und viele andere Arten von visuellen
-          Darstellungen zu erstellen. Das Tool bietet eine benutzerfreundliche
-          Oberfläche mit einer Vielzahl von Symbolen und Vorlagen, die es
-          einfach machen, komplexe Ideen und Informationen zu visualisieren. Mit
-          Draw.io können Benutzer ihre Diagramme direkt im Webbrowser erstellen,
-          ohne dass eine Installation von Software oder Plugins erforderlich
-          ist. Es bietet eine intuitive Drag-and-Drop-Funktionalität, mit der
-          Benutzer Symbole und Formen aus der Bibliothek auswählen und sie
-          einfach auf die Zeichenfläche ziehen können. Die Elemente können
-          leicht verschoben, skaliert und formatiert werden, um die gewünschte
-          Darstellung zu erreichen. Draw.io unterstützt auch die Zusammenarbeit
-          in Echtzeit, sodass mehrere Benutzer gleichzeitig an einem Diagramm
-          arbeiten können. Es bietet verschiedene Möglichkeiten, Diagramme zu
-          teilen und zu exportieren, darunter das Speichern in verschiedenen
-          Dateiformaten wie PDF, PNG oder SVG. Das Tool ist sowohl für
-          persönliche als auch für kommerzielle Zwecke kostenlos verfügbar und
-          bietet dennoch eine Fülle von Funktionen und Anpassungsoptionen. Es
-          ist plattformübergreifend und kann auf verschiedenen Geräten und
-          Betriebssystemen verwendet werden. Insgesamt bietet Draw.io eine
-          einfache und leistungsstarke Lösung zur Erstellung von Diagrammen und
-          visuellen Darstellungen, die sowohl für Einzelpersonen als auch für
-          Teams nützlich ist.
+        Draw.io is a web-based diagram and flowchart tool that allows users to quickly and easily create diagrams, organization charts, flowcharts, network diagrams, and many other types of visual representations. 
+        The tool offers a user-friendly interface with a variety of icons and templates that make it easy to visualize complex ideas and information. Draw.io allows users to create their diagrams directly in the web browser without the need to install software or plugins. It offers intuitive drag-and-drop functionality that allows users to select icons and shapes from the library and simply drag them onto the drawing surface. The elements can be easily moved, scaled, and formatted to achieve the desired display. Draw.io also supports real-time collaboration, allowing multiple users to work on a diagram at the same time. It offers various ways to share and export diagrams, including saving them in different file formats such as PDF, PNG or SVG. The tool is available free of charge for both personal and commercial use, yet offers a wealth of features and customization options. It is cross-platform and can be used on different devices and operating systems. Overall, Draw.io provides a simple and powerful solution for creating diagrams and visuals that are useful for both individuals and teams.
         </Typography>
 
         <Button className="button" variant="contained">
           How the video was made
         </Button>
+        <iframe width="1118" height="629" src="https://www.youtube.com/embed/o98pF0F7i0c" title="Lernvideo Enes Spahiu" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>
       <Footer />
     </>

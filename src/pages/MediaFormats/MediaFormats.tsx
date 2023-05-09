@@ -9,13 +9,12 @@ export default function MediaFormats() {
   return (
     <>
       <HamburgerMenu></HamburgerMenu>
-      <div className="wiki_title">Medien und Dateiformate für das Web</div>
+      <div className="wiki_title">Media and file formats for the web</div>
       <Grid container style={{ marginTop: "15%" }}>
       
         <Grid item xs={1}></Grid>
         <Grid item xs={8}>
-        Bilder: Die gängigsten Bildformate für das Web sind JPEG, PNG und GIF. JPEG eignet sich am besten für Fotos, 
-        PNG eignet sich am besten für Grafiken und Logos mit transparentem Hintergrund und GIF eignet sich am besten für Animationen.
+        Images: The most common image formats for the web are JPEG, PNG, and GIF. JPEG works best for photos, PNG works best for graphics and logos with transparent backgrounds, and GIF works best for animations.
         </Grid>
         <Grid item xs={2}>
           <img
@@ -34,14 +33,13 @@ export default function MediaFormats() {
           />
         </Grid>
         <Grid item xs={8}>
-        Videos: Die gängigsten Videoformate für das Web sind MP4, WebM und Ogg. MP4 wird von den meisten Browsern unterstützt und ist das am weitesten verbreitete Videoformat. 
-        WebM und Ogg sind jedoch offene Formate und bieten möglicherweise bessere Komprimierung und Qualität.
+        Videos: The most common video formats for the web are MP4, WebM, and Ogg. Supported by most browsers, MP4 is the most widely used video format. However, WebM and Ogg are open formats and may offer better compression and quality.
         </Grid>
         <Grid item xs={1}></Grid>
         <Grid item xs={1}></Grid>
         <Grid item xs={8}>
-        Audio: Die gängigsten Audioformate für das Web sind MP3, AAC und Ogg. MP3 ist das am weitesten verbreitete Audioformat und wird von den meisten Browsern unterstützt. AAC bietet jedoch eine höhere Klangqualität bei geringerer Dateigröße. 
-        Ogg ist ein offenes Format und bietet möglicherweise bessere Qualität bei geringerer Dateigröße.
+        Audio: The most common audio formats for the web are MP3, AAC, and Ogg. MP3 is the most widely used audio format and is supported by most browsers. However, AAC offers higher sound quality with a smaller file size.
+        Ogg is an open format and may offer better quality with a smaller file size.
         </Grid>
         <Grid item xs={2}>
           <img
@@ -61,8 +59,8 @@ export default function MediaFormats() {
           />
         </Grid>
         <Grid item xs={8}>
-        Dokumente: Die gängigsten Dokumentenformate für das Web sind PDF und HTML. PDF-Dateien sind einfach zu öffnen und zu lesen, und können von fast jedem Gerät geöffnet werden. 
-        HTML ist die Grundlage des World Wide Web und ermöglicht die Erstellung von Webseiten.
+        Documents: The most common document formats for the web are PDF and HTML. PDF files are easy to open and read, and can be opened from almost any device.
+        HTML is the basis of the World Wide Web and enables the creation of websites.
         </Grid>
       </Grid>
     </>

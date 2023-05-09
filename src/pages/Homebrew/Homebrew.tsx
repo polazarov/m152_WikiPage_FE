@@ -8,41 +8,16 @@ export default function Homebrew() {
   return (
     <>
       <HamburgerMenu></HamburgerMenu>
-      <div className="wiki_title">Learn more about ExCaliDraw</div>
+      <div className="wiki_title">Learn more about Homebrew</div>
       <div className="inner_div">
         <Typography className="inner_text">
-          Homebrew ist ein beliebtes Open-Source-Paketverwaltungssystem für
-          macOS. Es ermöglicht Benutzern die einfache Installation von Software
-          und Bibliotheken über die Kommandozeile. Mit Homebrew können Benutzer
-          auf eine umfangreiche Sammlung von vorkompilierten Paketen zugreifen
-          und diese schnell und unkompliziert auf ihren Mac-Systemen
-          installieren. Homebrew erleichtert die Installation von
-          Entwicklertools, Programmiersprachen, Bibliotheken und Anwendungen,
-          die nicht standardmäßig in macOS enthalten sind. Es ermöglicht
-          Benutzern, Pakete über ein einfaches Kommandozeileninterface zu
-          suchen, zu installieren, zu aktualisieren und zu verwalten. Das System
-          kümmert sich um Abhängigkeiten und stellt sicher, dass die benötigten
-          Komponenten korrekt installiert werden. Eine der Stärken von Homebrew
-          liegt in seiner aktiven Community, die ständig neue Pakete
-          aktualisiert und hinzufügt. Benutzer können auch eigene Formeln
-          erstellen, um benutzerdefinierte Software zu verwalten oder
-          beispielsweise Entwicklerversionen von Programmen zu installieren.
-          Homebrew bietet auch die Möglichkeit, alternative Versionen von
-          Software zu installieren und zwischen ihnen zu wechseln, was für
-          Entwickler und Tester besonders nützlich ist. Darüber hinaus bietet es
-          Funktionen wie das Löschen von Paketen, das Anzeigen von Informationen
-          über Pakete und das Anpassen der Konfiguration nach Bedarf. Mit
-          Homebrew können Benutzer ihre Softwareaktualisierungen einfach
-          verwalten und von den neuesten Versionen ihrer bevorzugten Anwendungen
-          profitieren, ohne auf macOS-Systemupdates warten zu müssen. Insgesamt
-          ist Homebrew ein leistungsfähiges und flexibles Paketverwaltungssystem
-          für macOS, das Benutzern ermöglicht, ihre Softwareumgebung effizient
-          zu verwalten und schnell auf neue Tools und Bibliotheken zuzugreifen.
+        Homebrew is a popular open source package management system for macOS. It allows users to easily install software and libraries from the command line. With Homebrew, users can access an extensive collection of precompiled packages and install them quickly and easily on their Mac systems. Homebrew makes it easy to install developer tools, programming languages, libraries, and applications that are not included by default in macOS. It allows users to search, install, update and manage packages via a simple command line interface. The system takes care of dependencies and ensures that the required components are installed correctly. One of Homebrew's strengths is its active community, which is constantly updating and adding new packages. Users can also create their own formulas to manage custom software or, for example, to install developer versions of programs. Homebrew also offers the ability to install and switch between alternative versions of software, which is particularly useful for developers and testers. In addition, it provides features such as deleting packages, displaying information about packages, and customizing the configuration as needed. With Homebrew, users can easily manage their software updates and get the latest versions of their favorite apps without having to wait for macOS system updates. Overall, Homebrew is a powerful and flexible package management system for macOS that allows users to efficiently manage their software environment and quickly access new tools and libraries.
         </Typography>
 
         <Button className="button" variant="contained">
           How the video was made
         </Button>
+        <iframe width="1118" height="629" src="https://www.youtube.com/embed/pZLDJTECG_g" title="Lernvideo Matijas Polazarov" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>
       <Footer />
     </>
