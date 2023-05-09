@@ -37,9 +37,9 @@ export default function DrawIo() {
           Teams nützlich ist.
         </Typography>
 
-        <Button className="button" variant="contained">
-          How the video was made
-        </Button>
+        <a href="/videomaking">
+      <Button className="button" variant="contained">How the video was made</Button></a>
+      
       </div>
       <Footer />
     </>

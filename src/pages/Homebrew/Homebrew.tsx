@@ -40,9 +40,8 @@ export default function Homebrew() {
           zu verwalten und schnell auf neue Tools und Bibliotheken zuzugreifen.
         </Typography>
 
-        <Button className="button" variant="contained">
-          How the video was made
-        </Button>
+        <a href="/videomaking">
+      <Button className="button" variant="contained">How the video was made</Button></a>
       </div>
       <Footer />
     </>

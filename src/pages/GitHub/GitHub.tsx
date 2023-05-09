@@ -39,9 +39,8 @@ export default function GitHub() {
           Zusammenarbeit in der Softwareentwicklung zu erleichtern.
         </Typography>
 
-        <Button className="button" variant="contained">
-          How the video was made
-        </Button>
+        <a href="/videomaking">
+      <Button className="button" variant="contained">How the video was made</Button></a>
       </div>
       <Footer />
     </>
