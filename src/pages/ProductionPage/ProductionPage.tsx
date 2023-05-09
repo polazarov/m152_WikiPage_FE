@@ -4,6 +4,7 @@ import React from "react";
 
 import HamburgerMenu from "../../atoms/HamburgerMenu";
 import "./ProductionPage.css";
+import Footer from "../../organisms/Footer";
 
 export default function ProductionPage() {
   return (
@@ -59,6 +60,7 @@ export default function ProductionPage() {
           <Grid item xs={1}></Grid>
         </Grid>
       </Grid>
+      <Footer />
     </>
   );
 }

@@ -22,10 +22,8 @@
     margin-top: 6em;
 }
 
-.button{
-    margin: 6;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+iframe {
+    margin: 0 auto;
+    background-color: #777;
+    display:block;
 }

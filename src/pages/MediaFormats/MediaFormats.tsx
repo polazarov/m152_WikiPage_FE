@@ -4,6 +4,7 @@ import React from "react";
 
 import HamburgerMenu from "../../atoms/HamburgerMenu";
 import "./MediaFormats.css";
+import Footer from "../../organisms/Footer";
 
 export default function MediaFormats() {
   return (
@@ -63,6 +64,7 @@ export default function MediaFormats() {
         HTML is the basis of the World Wide Web and enables the creation of websites.
         </Grid>
       </Grid>
+      <Footer />
     </>
   );
 }
