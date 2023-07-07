@@ -41,6 +41,7 @@ export default function DrawIo() {
           solution for creating diagrams and visuals that are useful for both
           individuals and teams.
         </Typography>
+
         <Grid container spacing={0} alignItems="center" justifyItems="center">
           <Grid md={4}></Grid>{" "}
           <Grid md={4}>
@@ -57,6 +58,11 @@ export default function DrawIo() {
             </a>{" "}
           </Grid>
         </Grid>
+
+
+        <a href="/videomaking">
+      <Button className="button" variant="contained">How the video was made</Button></a>
+      
       </div>
       <Footer />
     </>

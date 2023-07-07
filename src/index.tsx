@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename='https://polazarov.github.io/m152_WikiPage_FE'>
     <App />
   </BrowserRouter>
 );

@@ -13,7 +13,7 @@ import GitHub from "./pages/GitHub/GitHub";
 import DrawIo from "./pages/Draw-io/DrawIo";
 import Homebrew from "./pages/Homebrew/Homebrew";
 import MediaFormats from "./pages/MediaFormats/MediaFormats";
-import VideoMaking from "./pages/VideoMaking/VideoMaking";
+import VideoMaking from "./pages/Videomaking/Videomaking";
 
 const Router = () => {
   return (

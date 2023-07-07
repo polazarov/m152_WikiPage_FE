@@ -61,6 +61,9 @@ export default function Homebrew() {
             </a>{" "}
           </Grid>
         </Grid>
+
+        <a href="/videomaking">
+      <Button className="button" variant="contained">How the video was made</Button></a>
       </div>
       <Footer />
     </>
